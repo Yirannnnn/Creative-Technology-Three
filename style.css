@@ -1,8 +1,6 @@
-body {
-    position: relative;
+.container {
     margin: auto;
     max-width: 1280px;
-    height: 100%;
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -21,7 +19,11 @@ body {
 img {
     width: 100%;
 }
-
+iframe{
+    width:100%;
+    height:720px;
+      
+}
 
 .greeting {
     font-weight: 700;
@@ -64,13 +66,4 @@ project2 {
      line-height: 1.8;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.project1_video {
-    width: 100%;
-    height: 720px;
-}
-
-.project2_video {
-    width: 1280px;
-    height: 720px;
 }
